@@ -1,0 +1,202 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.academy-banner{
+	background-image: url('../img/academy-banner.jpg');
+	height: 120vh;
+	background-size: cover;
+	/*color: #1e2531;*/
+	position: relative;
+}
+.logo{
+	position: absolute;
+	top: 40%;
+	left: 70%;
+}
+.logo-content{
+	position: absolute;
+	top: 55%;
+	left: 70%;
+}
+.banner2{
+	height: 120vh;
+	position:relative; 
+}
+
+/*.banner2-img{
+	position: absolute;
+	top: 2%;
+	left: 2%;
+
+}*/
+.banner2 img{
+	position: absolute;
+	height: 90vh;
+	left: 30vh;
+	top: 5vh;
+}
+
+.banner2 .banner2-box{
+	position: absolute;
+	right: 20vh;
+	top: 30%;
+	background-color: #1e2531;
+	height: 30%;
+	width: 45%;
+	font-size: 25px;
+	padding: 30px;
+
+
+}
+.banner2 .banner2-box p{
+	color: cyan;
+	padding: 5px;
+}
+
+.banner2 .banner2-box p::before{
+	content: '{';
+	color: red;
+}
+.banner2 .banner2-box p::after{
+	content: '}';
+	color: red;
+}
+.banner2 .banner2-content{
+	position: absolute;
+	bottom: 10px;
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+.banner3{
+	background-image: url('../img/modulebg.jpg');
+	height: 90vh;
+	position: relative;
+}
+.banner3-div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 25%;
+}
+.banner3-div h3{
+	width: 20%;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.7);
+} 
+
+.para{
+	height: 50vh;
+	position: relative;
+
+}
+.para p{
+	text-align: center;
+	font-size: 25px;
+	position: absolute;
+	top: 25%;
+	
+}
+
+.gallery{
+	height: 70vh;
+	display: flex;
+
+
+}
+.gallery .img1{
+	background-image: url('../img/testsbg.jpg');
+	background-size: cover;
+
+}
+.gallery .img2{
+	background-image: url('../img/intrvwbg.jpg');
+	background-size: cover;
+}
+.gallery p{
+	background-color: rgba(6,8,11,0.7);
+	height: 50vh;
+	margin: 60px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+	font-size: 20px;
+
+}
+
+footer{
+	height: 100vh;
+	position: relative;
+}
+footer h2{
+	font-size: 40px;
+	color: #181e22;
+	/*text-align: center;*/
+	position: absolute;
+	top: 10%;
+	left: 30%;
+}
+footer a{
+	position: absolute;
+	top: 25%;
+	left: 45%;
+	border: solid 1px #f26422;
+	text-decoration: none;
+	font-size: 30px;
+	width: 15%;
+	height: 12%;
+	text-align: center;
+	padding: 15px;
+	color: #f26422;
+
+}
+
+.footer-main{
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-left: 30%;
+	padding-right: 30%;
+
+}
+footer div{
+	padding: 20px;	
+}
+.footer-main h3{
+	font-size: 25px;
+}
+.footer-main p{
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+
+
+
+
+/*.footer-div1 .footer-div2{
+	position: absolute;
+	/*width: 50px;
+	padding: 30%;
+}*/
